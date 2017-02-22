@@ -1,17 +1,22 @@
 <template>
+  
+
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <senderInfo></senderInfo>
+    <ReceiverInfo></ReceiverInfo>
+    <messages></messages>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import SenderInfo from './components/SenderInfo'
+import ReceiverInfo from './components/ReceiverInfo'
+import Messages from './components/Messages'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    SenderInfo, ReceiverInfo, Messages
   }
 }
 </script>
